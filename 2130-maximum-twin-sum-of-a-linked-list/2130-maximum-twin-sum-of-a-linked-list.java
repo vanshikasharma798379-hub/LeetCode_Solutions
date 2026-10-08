@@ -38,7 +38,7 @@ class Solution {
             sum = t1.val+t2.val;
             t1 = t1.next;
             t2 = t2.next;
-            max = Math.max(max , sum);
+            max = Math.max(max, sum);
         } 
         return max;
               
